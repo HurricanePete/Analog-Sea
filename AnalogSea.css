@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+body {
+	padding: 30px;
+	background-color: lightblue;
+	/*display: block;*/
+	font-family: 'Roboto'
+}
+.logo {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+img {
+	height: 35px;
+}
+fieldset {
+	border: none;
+	padding: 0;
+}
+fieldset.submit, fieldset.forgot {
+	/*border: none;*/
+	display: block;
+}
+.sign-up-div {
+	/*box-sizing: border-box;*/
+	background-color: white;
+	width: 400px;
+	padding-left: 40px;
+	padding-right: 40px;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	border-radius: 3px;
+	border: none;
+	height: 450px;
+}
+
+legend {
+	text-align: center;
+	margin-bottom: 40px;
+	padding-top: 50px;
+	font-size: 30px;
+	color: grey;
+}
+label {
+	display: block;
+	margin-bottom: 5px;
+	text-align: left;
+}
+input {
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	width: 320px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 2px solid grey;
+	border-radius: 3px;
+	text-align: left;
+	height: 55px;
+}
+
+.forgot	{
+	font-size: 14px;
+	margin-bottom: 20px;
+	color: grey;
+}
+.submit {
+	width: 320px;
+	border: 2px solid grey;
+	/*padding-left: 15px;
+	padding-right: 15px;*/
+	padding: 15px;
+	height: 55px;
+	border-radius: 3px;
+	background: lime;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.submit:hover {
+	background-color: green;
+}
+
+.log-in {
+	color: white;
+	font-weight: bold;
+}
+
+.log-in>a {
+	color: white
+}
+
+
